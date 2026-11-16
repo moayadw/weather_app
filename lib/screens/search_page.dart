@@ -1,11 +1,9 @@
-import 'dart:developer';
 
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:wether_app/cubits/get_weather_component/get_weather_cubit.dart';
 import 'package:wether_app/models/weather_model.dart';
-import 'package:wether_app/services/weather_service.dart';
+
 
 class SearchPage extends StatelessWidget {
   const SearchPage({super.key});
